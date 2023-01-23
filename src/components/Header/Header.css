@@ -1,0 +1,313 @@
+@import url("//fonts.googleapis.com/css?family=Nunito|Ubuntu;*/"); 
+@import url("http://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("http://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+@import url("http://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+* { 
+    box-sizing: border-box;
+} 
+
+div { 
+    color: #666666;
+} 
+
+.theme-page-start { 
+    padding-top: 75px !important; 
+    box-sizing: border-box !important;
+} 
+
+.theme-background-color { 
+    background-color: #f5f7f8 !important;
+} 
+
+.text-center { 
+    text-align: center !important;
+} 
+
+.ui-g { 
+    display: flex; 
+    flex-wrap: wrap; 
+    box-sizing: border-box;
+} 
+
+.text-center { 
+    text-align: center;
+} 
+
+.custom-top-padding[_ngcontent-c3] { 
+    padding-top: 60px !important;
+} 
+
+.no-top-padding[_ngcontent-c3] { 
+    padding-top: 0px !important;
+} 
+
+.ng-star-inserted { 
+    margin-bottom: 0; 
+    padding-left: 0.2rem;
+} 
+
+body { 
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif; 
+    font-weight:   lighter; 
+    margin:   0;
+    height:   100%;
+    font-size: 14px; 
+    line-height: 1.42857143; 
+    color: #333; 
+    background-color: #fff;
+} 
+
+html { 
+    height:   100%;
+    font-family:  sans-serif; 
+    -ms-text-size-adjust:  100%; 
+    -webkit-text-size-adjust:  100%;
+    font-size: 10px; 
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+} 
+
+.ui-g-12 { 
+    float:  left; 
+    box-sizing:  border-box; 
+    padding:  .5em;
+    width: 100%;
+} 
+
+.no-padding-top[_ngcontent-c3] { 
+    padding-top: 0px !important;
+} 
+
+.no-padding-left-right[_ngcontent-c3] { 
+    padding-left: 0px !important; 
+    padding-right: 0px !important;
+} 
+
+:after,:before { 
+    box-sizing: border-box;
+} 
+
+#headsection[_ngcontent-c2] { 
+    background-color: #5C3994; 
+    height: 80px;
+} 
+
+@media screen and (min-width: 40.063em){ 
+  .ui-md-8 { 
+    padding:  .5em;
+    width: 66.6667%;
+  } 
+
+  .ui-md-offset-2 { 
+    margin-left: 16.66666667%;
+  } 
+}     
+
+.no-padding-top[_ngcontent-c2] { 
+    padding-top: 0px !important;
+} 
+
+h1 { 
+    font-size:  36px;
+    margin:    .67em 0;
+    font-family:   inherit; 
+    font-weight:   500; 
+    line-height:   1.1; 
+    color:   inherit;
+    margin-top:  20px; 
+    margin-bottom:  10px;
+} 
+
+h1[_ngcontent-c2] { 
+    font-size: 2.8rem !important; 
+    margin-bottom: 0rem; 
+    margin-top: 0.4rem;
+} 
+
+.white-color[_ngcontent-c2] { 
+    color: white !important;
+    text-align: center;
+} 
+
+p { 
+    margin: 0 0 10px;
+} 
+
+.ui-widget { 
+    box-sizing: border-box;
+} 
+
+.ui-helper-clearfix { 
+    zoom: 1;
+} 
+
+.ui-widget { 
+    font-family: "Roboto", "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-size: 1em;
+} 
+
+[_nghost-c2] .ui-steps.steps-custom  { 
+    margin-bottom: 30px;
+} 
+
+.ui-helper-clearfix:before,.ui-helper-clearfix:after { 
+    content: ""; 
+    display: table;
+} 
+
+.ui-helper-clearfix:after { 
+    clear: both;
+} 
+
+ul { 
+    margin-top: 0; 
+    margin-bottom: 10px;
+} 
+
+.ui-widget *  { 
+    box-sizing: border-box;
+} 
+
+.ui-steps ul  { 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+} 
+
+.ui-state-disabled { 
+    cursor: default !important;
+} 
+
+.ui-state-default { 
+    border: 1px solid #d6d6d6; 
+    background-color: #ffffff; 
+    color: #555555;
+} 
+
+.ui-state-disabled { 
+    opacity: 0.35; 
+    filter: Alpha(Opacity=35); 
+    background-image: none; 
+    cursor: default !important;
+} 
+
+.ui-steps .ui-steps-item  { 
+    float: left; 
+    box-sizing: border-box; 
+    cursor: pointer;
+} 
+
+.ui-steps.ui-steps-readonly .ui-steps-item  { 
+    cursor: auto;
+} 
+
+[_nghost-c2] .ui-steps .ui-steps-item  { 
+    width: 33.33%;
+} 
+
+.ui-state-highlight { 
+    border-color:  #156090; 
+    background:  #922422 !important;
+    background-color: #186ba0; 
+    color: #FFFFFF;
+} 
+
+a { 
+    background-color:  transparent;
+    color: #337ab7; 
+    text-decoration: none;
+} 
+
+.ui-menuitem-link { 
+    background: white !important; 
+    border: white;
+} 
+
+.ui-state-disabled *  { 
+    cursor: default !important;
+} 
+
+.ui-state-disabled a  { 
+    cursor: default !important;
+} 
+
+.ui-state-default a  { 
+    color: #555555;
+} 
+
+.ui-steps .ui-steps-item .ui-menuitem-link  { 
+    text-decoration: none; 
+    display: block; 
+    padding: 1em; 
+    position: relative; 
+    text-align: center;
+} 
+
+.ui-steps .ui-steps-item.ui-state-disabled .ui-menuitem-link  { 
+    cursor: default;
+} 
+
+[_nghost-c2] .ui-steps.steps-custom .ui-steps-item .ui-menuitem-link  { 
+    height: 2px; 
+    padding: 0 1em;
+} 
+
+a:active,a:hover { 
+    outline: 0;
+} 
+
+a:hover { 
+    color: #23527c; 
+    text-decoration: underline;
+} 
+
+.ui-menuitem-link:hover { 
+    background: #318749 !important;
+} 
+
+.ui-state-highlight a  { 
+    color: #FFFFFF;
+} 
+
+.ui-steps .ui-steps-item.ui-state-highlight .ui-menuitem-link  { 
+    cursor:  default;
+    color: #ffffff;
+} 
+
+.ui-steps .ui-steps-number  { 
+    font-size: 2em; 
+    display: block;
+} 
+
+[_nghost-c2] .ui-steps.steps-custom .ui-steps-item .ui-steps-number  { 
+    color: #5C3994; 
+    display: inline-block; 
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    margin-top: -14px; 
+    margin-bottom: 10px; 
+    overflow: hidden; 
+    font-size: 20px; 
+    padding-top: 1.5px; 
+    background-color: white; 
+    border: 1.5px solid #5C3994;
+} 
+
+.ui-steps .ui-steps-title  { 
+    display: block; 
+    white-space: nowrap;
+} 
+
+[_nghost-c2] .ui-steps.steps-custom .ui-steps-item .ui-steps-title  { 
+    font-family: 'Nunito', sans-serif; 
+    color: #555555; 
+    font-weight: bold;
+} 
+
+
+
+
+.theme-heading-size { 
+    text-align: center !important; 
+    font-size: 30px !important;
+} 

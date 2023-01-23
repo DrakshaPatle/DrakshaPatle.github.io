@@ -1,0 +1,527 @@
+
+  * { 
+      box-sizing: border-box;
+  } 
+  
+  div { 
+      color: #666666;
+  } 
+  
+  .theme-page-start { 
+      padding-top: 75px !important; 
+      box-sizing: border-box !important;
+  } 
+  
+  .theme-background-color { 
+      background-color: #f5f7f8 !important;
+  } 
+  
+  .text-center { 
+      text-align: center !important;
+  } 
+  
+  .ui-g { 
+      display: flex; 
+      flex-wrap: wrap; 
+      box-sizing: border-box;
+  } 
+  
+  .text-center { 
+      text-align: center;
+  } 
+  
+  body { 
+      font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif; 
+      font-weight:   lighter; 
+      margin:   0;
+      height:   100%;
+      font-size: 14px; 
+      line-height: 1.42857143; 
+      color: #333; 
+      background-color: #fff;
+  } 
+  
+  html { 
+      height:   100%;
+      font-family:  sans-serif; 
+      -ms-text-size-adjust:  100%; 
+      -webkit-text-size-adjust:  100%;
+      font-size: 10px; 
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+  } 
+  
+  .ui-g-12 { 
+      float:  left; 
+      box-sizing:  border-box; 
+      padding:  .5em;
+      width: 100%;
+  } 
+  
+  @media screen and (min-width: 64.063em){ 
+    .ui-lg-12 { 
+      padding:  .5em;
+      width: 100%;
+    } 
+  }     
+  
+  :after,:before { 
+      box-sizing: border-box;
+  } 
+  
+  h2 { 
+      font-family:   inherit; 
+      font-weight:   500; 
+      line-height:   1.1; 
+      color:   inherit;
+      margin-top:  20px; 
+      margin-bottom:  10px;
+      font-size: 30px;
+  } 
+  
+  .theme-heading-size { 
+      text-align: center !important; 
+      font-size: 30px !important;
+  } 
+  
+  p { 
+      margin: 0 0 10px;
+  } 
+  
+  @media screen and (min-width: 40.063em){ 
+    .ui-md-6 { 
+      padding:  .5em;
+      width: 50%;
+    } 
+  
+    .ui-md-2 { 
+      padding:  .5em;
+      width: 16.6667%;
+    } 
+  
+    .ui-md-offset-5 { 
+      margin-left: 41.66666667%;
+    } 
+  
+    .ui-md-12 { 
+      padding:  .5em;
+      width: 100%;
+    } 
+  }     
+  
+  .ui-g-10 { 
+      float:  left; 
+      box-sizing:  border-box; 
+      padding:  .5em;
+      width: 83.3333%;
+  } 
+  
+  .ui-g-offset-1 { 
+      margin-left: 8.33333333%;
+  } 
+  
+  @media screen and (min-width: 40.063em){ 
+    .ui-md-8 { 
+      padding:  .5em;
+      width: 66.6667%;
+    } 
+  
+    .ui-md-offset-2 { 
+      margin-left: 16.66666667%;
+    } 
+  }     
+  
+  .cards[_ngcontent-c1] { 
+      display: flex; 
+      align-items: center;
+  } 
+  
+  .sub-heading[_ngcontent-c1] { 
+      font-size: 20px !important; 
+      padding-top: 20px !important; 
+      font-weight: bold !important;
+  } 
+  
+  @media screen and (min-width: 40.063em){ 
+    .ui-md-10 { 
+      padding:  .5em;
+      width: 83.3333%;
+    } 
+  
+    .ui-md-offset-1 { 
+      margin-left: 8.33333333%;
+    } 
+  }     
+  
+  @media screen and (min-width: 64.063em){ 
+    .ui-lg-4 { 
+      padding:  .5em;
+      width: 33.3333%;
+    } 
+  
+    .ui-lg-offset-4 { 
+      margin-left: 33.33333333%;
+    } 
+  }     
+  
+  #floorarea[_ngcontent-c1] { 
+      color: #099B8C !important; 
+      font-weight: bold; 
+      font-size: 20px;
+  } 
+  
+  @media screen and (min-width: 40.063em){ 
+    .ui-md-offset-3 { 
+      margin-left: 25%;
+    } 
+  }     
+  
+  .no-padding-left-right[_ngcontent-c1] { 
+      padding-left: 0px !important; 
+      padding-right: 0px !important;
+  } 
+  
+  @media screen and (min-width: 64.063em){ 
+    .ui-lg-6 { 
+      padding:  .5em;
+      width: 50%;
+    } 
+  
+    .ui-lg-offset-3 { 
+      margin-left: 25%;
+    } 
+  }     
+  
+  @media screen and (min-width: 90.063em){ 
+    .ui-xl-8 { 
+      padding:  .5em;
+      width: 66.6667%;
+    } 
+  
+    .ui-xl-offset-2 { 
+      margin-left: 16.66666667%;
+    } 
+  }     
+  
+  .ui-g-2 { 
+      float:  left; 
+      box-sizing:  border-box; 
+      padding:  .5em;
+      width: 16.6667%;
+  } 
+  
+  .ui-g-offset-5 { 
+      margin-left: 41.66666667%;
+  } 
+  
+  .ui-g-8 { 
+      float:  left; 
+      box-sizing:  border-box; 
+      padding:  .5em;
+      width: 66.6667%;
+  } 
+  
+  .ui-g-offset-2 { 
+      margin-left: 16.66666667%;
+  } 
+  
+  .ui-inputgroup { 
+      display: flex;
+  } 
+  
+  input { 
+      width:    100%; 
+      color:    inherit; 
+      padding:    6px !important;
+      font:   inherit; 
+      margin:   0;
+      line-height:  inherit;
+      font-family: inherit; 
+      font-size: inherit; 
+  } 
+  
+  .ui-widget { 
+      box-sizing: border-box;
+  } 
+  
+  .ui-inputtext { 
+      margin: 0; 
+      outline: medium none; 
+      padding: .25em; 
+      font-weight: normal;
+  } 
+  
+  .ui-widget { 
+      font-family: "Roboto", "Trebuchet MS", Arial, Helvetica, sans-serif; 
+      font-size: 1em;
+  } 
+  
+  .ui-state-default { 
+      border: 1px solid #d6d6d6; 
+      background-color: #ffffff; 
+      color: #555555;
+  } 
+  
+  .ui-inputtext { 
+      background-color: #ffffff; 
+      color: #222222;
+  } 
+  
+  .ui-corner-all { 
+      border-radius: 3px;
+  } 
+  
+  .ui-inputtext { 
+      background: #ffffff; 
+      color: #222222; 
+      transition: 0.2s;
+  } 
+  
+  .add-theme-border[_ngcontent-c1] { 
+      border: 1px solid #A5CD53 !important;
+  } 
+  
+  .theme-card { 
+      background-color: #ffffff !important; 
+      border-radius: 5px !important; 
+      padding-bottom: 20px !important; 
+      text-align: center; 
+      box-shadow: 0.5px 0.5px 2px 2px #E1DDD5;
+  } 
+  
+  .no-bottom-padding[_ngcontent-c1] { 
+      padding-bottom: 0px !important;
+  } 
+  
+  button { 
+      border-radius:      0;
+      color:     inherit; 
+      font:     inherit; 
+      margin:     0;
+      overflow:    visible;
+      text-transform:   none;
+      /* -webkit-appearance:  button;  */
+      cursor:  pointer;
+      font-family: inherit; 
+      font-size: inherit; 
+      line-height: inherit;
+  } 
+  
+  .theme-button { 
+      height: 40px !important; 
+      width: 100% !important; 
+      padding-top: 10px !important; 
+      padding-bottom: 10px !important; 
+      padding-left: 10px !important; 
+      padding-right: 10px !important; 
+      background: none !important; 
+      border: 2px solid #05121E !important; 
+      color: #05121E !important; 
+      cursor: pointer !important; 
+      font-family: 'Nunito', sans-serif !important; 
+      font-size: 16px !important; 
+      border-radius: 4px !important;
+  } 
+  
+  button[disabled] { 
+      cursor: default;
+  } 
+  
+  #nextbutton[_ngcontent-c1] { 
+      background-color: #A5CD53 !important; 
+      color: white !important; 
+      border: none !important; 
+      border-radius: 0px !important;
+  } 
+  
+  .ui-button { 
+      display: inline-block; 
+      background-color:  #1CA8FE !important; 
+      border-color:  #1CA8FE !important;
+      position: relative; 
+      padding: 0; 
+      text-decoration: none !important; 
+      cursor: pointer; 
+      text-align: center; 
+      zoom: 1; 
+      overflow: visible;
+  } 
+  
+  .ui-inputgroup .ui-button  { 
+      margin-right: 0; 
+      border-radius: 0;
+  } 
+  
+  .ui-widget.ui-button,.ui-button { 
+      border: 1px solid #2399e5; 
+      color: #FFFFFF; 
+      background: #2399e5; 
+      transition: background-color 0.2s;
+  } 
+  
+  .add-theme-background-color[_ngcontent-c1] { 
+      background-color: #A5CD53 !important;
+  } 
+  
+  .ui-inputgroup .ui-button:first-child  { 
+      border-top-left-radius: 3px; 
+      border-bottom-left-radius: 3px;
+  } 
+  
+  .ui-button:enabled:hover { 
+      outline: 0 none; 
+      border-color: #c0c0c0; 
+      background-color: #eeeeee; 
+      color: #212121;
+  } 
+  
+  .ui-widget.ui-button:enabled:hover,.ui-button:enabled:hover { 
+      border: 1px solid #1f89ce; 
+      background: #1f89ce; 
+      outline: 0 none; 
+      color: #ffffff;
+  } 
+  
+  .ui-inputgroup .ui-inputtext  { 
+      padding-left: .5em;
+  } 
+  
+  .ui-inputgroup .ui-inputtext:not(:first-child)  { 
+      border-top-left-radius: 0; 
+      border-bottom-left-radius: 0; 
+      border-left: 0 none;
+  } 
+  
+  .ui-inputgroup .ui-inputtext:not(:last-child)  { 
+      border-top-right-radius: 0; 
+      border-bottom-right-radius: 0; 
+      border-right: 0 none;
+  } 
+  
+  .ui-inputgroup .ui-button:last-child  { 
+      border-top-right-radius: 3px; 
+      border-bottom-right-radius: 3px;
+  } 
+  
+  .ui-g-3 { 
+      float:  left; 
+      box-sizing:  border-box; 
+      padding:  .5em;
+      width: 25%;
+  } 
+  
+  @media screen and (min-width: 40.063em){ 
+    .ui-md-3 { 
+      padding:  .5em;
+      width: 25%;
+    } 
+  }     
+  
+  .ui-g-7 { 
+      float:  left; 
+      box-sizing:  border-box; 
+      padding:  .5em;
+      width: 58.3333%;
+  } 
+  
+  @media screen and (min-width: 40.063em){ 
+    .ui-md-7 { 
+      padding:  .5em;
+      width: 58.3333%;
+    } 
+  }     
+  
+  .card-data-padding-top[_ngcontent-c1] { 
+      padding-top: 0px !important;
+  } 
+  
+  .fa { 
+      display:   inline-block; 
+      -moz-osx-font-smoothing:   grayscale; 
+      -webkit-font-smoothing:   antialiased; 
+      font-style:   normal; 
+      font-variant:   normal; 
+      text-rendering:   auto; 
+      line-height:   1;
+      font-family:  "Font Awesome 5 Free";
+      font-weight: 900;
+  } 
+  
+  .ui-widget *  { 
+      box-sizing: border-box;
+  } 
+  
+  .ui-button-icon-left { 
+      left: .5em;
+  } 
+  
+  .ui-button-icon-only .ui-button-icon-left  { 
+      position:  absolute; 
+      top:  50%; 
+      margin-top:  -.5em; 
+      height:  1em;
+      left: 50%; 
+      margin-left: -.5em; 
+      width: 1em; 
+  } 
+  
+  .fa-minus:before { 
+      content: "\f068";
+  } 
+  
+  .ui-button .ui-button-text  { 
+      display: block; 
+      line-height: normal;
+  } 
+  
+  .ui-button-icon-only .ui-button-text  { 
+      padding: .25em; 
+      text-indent: -9999999px;
+  } 
+  
+  .fa-plus:before { 
+      content: "\f067";
+  } 
+  
+  img { 
+      border:  0;
+      vertical-align: middle;
+  } 
+  
+  .theme-img-responsive { 
+      display: block; 
+      max-width: 100%; 
+      height: auto;
+  } 
+  
+  #themeimage[_ngcontent-c1] { 
+      width: 100%; 
+      min-height: 40px;
+  } 
+  
+  
+  
+
+
+
+
+  @font-face { 
+    font-family:"Font Awesome 5 Free";
+    font-style:normal;
+    font-weight:400;
+    font-display:block;
+    src:url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.eot);
+    src:url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.woff2) format("woff2"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.woff) format("woff"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.ttf) format("truetype"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.svg#fontawesome) format("svg");
+  } 
+  @font-face { 
+    font-family:"Font Awesome 5 Free";
+    font-style:normal;
+    font-weight:900;
+    font-display:block;
+    src:url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.eot);
+    src:url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.woff2) format("woff2"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.woff) format("woff"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.ttf) format("truetype"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.svg#fontawesome) format("svg");
+  } 
+  @import url("//fonts.googleapis.com/css?family=Nunito|Ubuntu;*/"); 
+  @import url("http://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+  @import url("http://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+  @import url("http://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+  @import url("http://fonts.googleapis.com/css?family=Poppins|Roboto"); 
