@@ -2,6 +2,7 @@ import './App.css';
 import { Route, Routes } from "react-router-dom";
 import Header from './components/Header/Header';
 import { Yourneeds } from './components/pages/YourNeeds/Yourneeds'
+import { Spacedetails } from './components/pages/SpaceDetails/Spacedetails'
 import { useState } from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
 
@@ -55,9 +56,10 @@ function App() {
 
 	return (
 		<>
-			<Header/>
+			<Header />
 			<Routes>
 				<Route path="/" element={<Yourneeds noOfBedrooms={noOfBedrooms} noOfBathrooms={noOfBathrooms} area={area} setNoOfBathrooms={setNoOfBathrooms} setNoOfBedrooms={setNoOfBedrooms} setArea={setArea} cards={cards} setCards={setCards} />} />
+				<Route path="/sd" element={<Spacedetails />} />
 			</Routes>
 		</>
 	);
