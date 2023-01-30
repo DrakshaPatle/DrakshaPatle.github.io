@@ -261,7 +261,7 @@
       margin:     0;
       overflow:    visible;
       text-transform:   none;
-      -webkit-appearance:  button; 
+      /* -webkit-appearance:  button;  */
       cursor:  pointer;
       font-family: inherit; 
       font-size: inherit; 
@@ -504,7 +504,7 @@
   
   input[type="submit"] { 
       border-radius:  0;
-      -webkit-appearance: button; 
+      /* -webkit-appearance: button;  */
       cursor: pointer;
   } 
   
