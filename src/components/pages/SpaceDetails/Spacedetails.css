@@ -1,27 +1,14 @@
-@font-face { 
-    font-family:"Font Awesome 5 Free";
-    font-style:normal;
-    font-weight:400;
-    font-display:block;
-    src:url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.eot);
-    src:url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.woff2) format("woff2"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.woff) format("woff"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.ttf) format("truetype"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.svg#fontawesome) format("svg");
-  } 
-  @font-face { 
-    font-family:"Font Awesome 5 Free";
-    font-style:normal;
-    font-weight:900;
-    font-display:block;
-    src:url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.eot);
-    src:url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.woff2) format("woff2"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.woff) format("woff"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.ttf) format("truetype"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.svg#fontawesome) format("svg");
-  } 
-  @import url("//fonts.googleapis.com/css?family=Nunito|Ubuntu;*/"); 
-  @import url("http://fonts.googleapis.com/css?family=Poppins|Roboto"); 
-  @import url("http://fonts.googleapis.com/css?family=Poppins|Roboto"); 
-  @import url("http://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+
   * { 
       box-sizing: border-box;
   } 
   
+
+button.fas-fa-toggle-off :focus{
+    outline: none;
+    display:block;
+    background-color: #186ba0;
+}
   .ng-star-inserted { 
       margin-bottom: 0; 
       padding-left: 0.2rem;
@@ -955,3 +942,24 @@
   
   
   
+
+  @font-face { 
+    font-family:"Font Awesome 5 Free";
+    font-style:normal;
+    font-weight:400;
+    font-display:block;
+    src:url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.eot);
+    src:url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.woff2) format("woff2"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.woff) format("woff"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.ttf) format("truetype"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-regular-400.svg#fontawesome) format("svg");
+  } 
+  @font-face { 
+    font-family:"Font Awesome 5 Free";
+    font-style:normal;
+    font-weight:900;
+    font-display:block;
+    src:url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.eot);
+    src:url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.woff2) format("woff2"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.woff) format("woff"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.ttf) format("truetype"),url(http://costfinder.consdeployer.com/assets/fontawesome-free-5.13.0-web/webfonts/fa-solid-900.svg#fontawesome) format("svg");
+  } 
+  @import url("//fonts.googleapis.com/css?family=Nunito|Ubuntu;*/"); 
+  @import url("http://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+  @import url("http://fonts.googleapis.com/css?family=Poppins|Roboto"); 
+  @import url("http://fonts.googleapis.com/css?family=Poppins|Roboto"); 
