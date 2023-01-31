@@ -12,14 +12,16 @@ export const incNumber1 = (num) => {
     }
 }
 
-export const incNumber2 = () => {
+export const incNumber2 = (num) => {
     return {
-        type: 'img2'
+        type: 'img2',
+        payload: num
     }
 }
-    export const incNumber3 = () => {
+    export const incNumber3 = (num) => {
         return {
-            type: 'img3'
+            type: 'img3',
+            payload: num
         }
     
 

@@ -1,18 +1,108 @@
 
 import React from 'react'
 import './Costestimate.css'
+import { useEffect, useState } from 'react';
+// import 'bootstrap/dist/css/bootstrap.css';
+import { useSelector } from "react-redux";
+ 
+
+import {Chart as ChartJs, Tooltip,  ArcElement, Legend} from 'chart.js';
+import { Doughnut } from 'react-chartjs-2';
+// import changeTheNumber from '../../../redux/reducer/upDown';
+
+ChartJs.register(
+  Tooltip,  ArcElement, Legend
+);
+
+
+
+
+const data = {
+  datasets: [{
+      data: [10, 20],
+      backgroundColor:[
+        'PaleVioletRed	',
+        'Dodgerblue	'
+        
+        
+      ]
+  },
+],
+// These labels appear in the legend and in the tooltips when hovering different arcs
+labels: [
+    'PaleVioletRed	',
+    
+    'Dodgerblue	'
+], 
+};
 export const Costestimate = () => {
-  return (
+
+  const changeTheNumber = useSelector((state)=>state.changeTheNumber);
+
+  const [data, setData] = useState({
+    datasets: [{
+        data: [10, 20, 30],
+        backgroundColor:[
+          'PaleVioletRed	',
+          'Dodgerblue		',
+          'Lime'
+        
+        ]
+    },
+  ],
+  labels: [
 
 
+      'Living Room',
+      'Master Bedroom',
+      'Master Bathroom',
+       'Kitchen',
+       'Extra Bedroom '
+  ], 
+});
+
+// useEffect(()=> {
+//   const fetchData = () =>  {
+//     fetch('https://jsonplaceholder.typicode.com/users').then((data) => {
+//       const res = data.json();
+//       return res
+//     }).then((res) => {
+//       console.log("resss", res)
+//       const label = [];
+//       const data = [];
+//       for(var i of res) {
+//           data.push(i.name)
+//           data.push(i.id)
+//       }
+//       setData(
+//         {
+//           datasets: [{
+//               data:data,
+//               backgroundColor:[
+//                 'red',
+//                 'blue',
+//                 'yellow'
+//               ]
+//           },
+//         ],
+//         labels:label, 
+//       }
+//       )
+
+//     }).catch(e => {
+//       console.log("error", e)
+//     }) 
+//   }
+// fetchData();
+// }, [])
+
+
+   return (
     <>
-
-
-
 
       <div mainboxu className="sc cs no-padding-left-right no-padding-top-bottom snipcss-oWQwA">
         <h2 mainboxu className="text-center">
-          Your Total Estimate
+          Your Total Estimate{changeTheNumber}
         </h2>
         <div mainboxu className="sc cs no-padding-top white-background">
           <div mainboxu className="sc cs ui-lg-6 theme-text-center no-padding-top">
@@ -23,7 +113,7 @@ export const Costestimate = () => {
                 Room Wise Estimate
               </h4>
 
-              <div class="row">
+              {/* <div class="row">
                 <div mainboxu className="sc cs text-left no-padding-top-bottom ng-star-inserted">
 
                   <div mainboxu className="ui-g-2 text-right">
@@ -101,14 +191,21 @@ export const Costestimate = () => {
                 Master Bathroom
               </div>
 
-          </div>
+          </div> */}
 
 
 
 
-          <p-chart mainboxu type="doughnut" ng-reflect-type="doughnut" ng-reflect-data="[object Object]">
-            <div style={{ position: 'relative' }}>
-              <div className="chartjs-size-monitor">
+          <p-chart mainboxu type="doughnut" ng-reflect-type="doughnut" ng-reflect-data="[object Object]" >
+
+
+          <div className="App" style={{width:'70%', height:'70%'}}>
+      <Doughnut data={data}/>
+    </div>
+
+
+            <div >/
+              {/* <div className="chartjs-size-monitor">
                 <div className="chartjs-size-monitor-expand">
                   <div className>
                   </div>
@@ -117,10 +214,11 @@ export const Costestimate = () => {
                   <div className>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
-              <canvas width={1396} height={697} style={{ display: 'block', height: '465px', width: '931px' }} className="chartjs-render-monitor">
+              <canvas width={1396} height={697} style={{  height: '165px', width: '531px' }} className="chartjs-render-monitor">
               </canvas>
+
             </div>
           </p-chart>
         </section>
@@ -139,7 +237,7 @@ export const Costestimate = () => {
               Living Room
             </div>
             <div mainboxu className="ui-g-5 text-left">
-              -34110
+              0
             </div>
           </div>
           <div mainboxu className="sc cs text-left no-padding-top-bottom ng-star-inserted">
@@ -208,7 +306,7 @@ export const Costestimate = () => {
 
 
 
-          <div class="row">
+          {/* <div class="row">
                 <div mainboxu className="sc cs text-left no-padding-top-bottom ng-star-inserted">
 
                   <div mainboxu className="ui-g-2 text-right">
@@ -286,9 +384,14 @@ export const Costestimate = () => {
                 Master Bathroom
               </div>
 
-          </div>
+          </div> */}
 
           <p-chart mainboxu className type="doughnut" ng-reflect-type="doughnut" ng-reflect-data="[object Object]">
+
+
+          <div className="App" style={{width:'70%', height:'70%'}}>
+      <Doughnut data={data}/>
+      </div>
             <div style={{ position: 'relative' }}>
               <div className="chartjs-size-monitor">
                 <div className="chartjs-size-monitor-expand">
@@ -300,7 +403,7 @@ export const Costestimate = () => {
                   </div>
                 </div>
               </div>
-              <canvas width={1396} height={697} style={{ display: 'block', height: '465px', width: '931px' }} className="chartjs-render-monitor tether-target-attached-top tether-element-attached-top tether-element-attached-center tether-target-attached-center">
+              <canvas width={1396} height={697} style={{ display: 'block', height: '165px', width: '531px' }} className="chartjs-render-monitor tether-target-attached-top tether-element-attached-top tether-element-attached-center tether-target-attached-center">
               </canvas>
             </div>
           </p-chart>
@@ -315,7 +418,7 @@ export const Costestimate = () => {
               Flooring
             </div>
             <div mainboxu className="ui-g-5 text-left">
-              -34110
+              0
             </div>
           </div>
           <div mainboxu className="sc cs text-left no-padding-top-bottom ng-star-inserted">
