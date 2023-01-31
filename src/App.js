@@ -74,7 +74,7 @@ function App() {
 				<Route path="/" element={<Yourneeds noOfBedrooms={noOfBedrooms} noOfBathrooms={noOfBathrooms} area={area} setNoOfBathrooms={setNoOfBathrooms} setNoOfBedrooms={setNoOfBedrooms} setArea={setArea} bedroomCards={bedroomCards} setBedroomCards={setBedroomCards} bathroomCards={bathroomCards} setBathroomCards={setBathroomCards} />} />
         
 				  <Route path="/sd" element={<Spacedetails   toggle={true}/>} />  
-        <Route path="/ce" element={<Costestimate/>}></Route> 
+        <Route path="/sd/ce" element={<Costestimate/>}></Route> 
 
 		
         /* <Route path="/ct" element={<Contact/>}></Route>

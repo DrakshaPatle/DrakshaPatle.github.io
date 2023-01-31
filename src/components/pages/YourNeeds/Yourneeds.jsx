@@ -6,6 +6,7 @@ import { bedroomCard, bathroomCard } from '../../../App'
 import { Spacedetails } from '../SpaceDetails/Spacedetails'
 import './Yourneeds.css'
 
+
 export const Yourneeds = ({ noOfBedrooms, noOfBathrooms, area, setArea, setNoOfBathrooms, setNoOfBedrooms, bedroomCards, setBedroomCards, bathroomCards, setBathroomCards }) => {
  
 	// const addOrRemoveBedroomCards = (e) => {
@@ -36,14 +37,14 @@ export const Yourneeds = ({ noOfBedrooms, noOfBathrooms, area, setArea, setNoOfB
 	// 	setCards(additional_cards);
 	// }
 
- const spacedetail=()=>
-{
-	<BrowserRouter>
-<Routes>
-<Route path="/sd" element={<Spacedetails />} />  
-	</Routes>     
-	</BrowserRouter>
-}
+//  const spacedetail=()=>
+// {
+// 	<BrowserRouter>
+// <Routes>
+// <Route path="/sd" element={<Spacedetails />} />  
+// 	</Routes>     
+// 	</BrowserRouter>
+// }
 
 
   
@@ -70,6 +71,7 @@ const routeChange = () =>{
 		setNoOfBathrooms(noOfBathrooms + 1)
 		setBathroomCards([...bathroomCards, bathroomCard()]);
 	}
+
 	const handleBathroomDecrease = () => {
 		setArea(area - 120);
 		setNoOfBathrooms(noOfBedrooms - 1);

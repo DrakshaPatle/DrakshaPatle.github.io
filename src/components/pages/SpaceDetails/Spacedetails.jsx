@@ -1,20 +1,48 @@
 import React from 'react'
 import './Spacedetails.css'
+import { useNavigate } from "react-router-dom";
+ import { BrowserRouter, Route, Routes } from "react-router-dom";
+ import { useSelector } from "react-redux";
+ 
+
 // import { ToggleSwitch } from '../../../toggle-switch/toggleSwitch';
 // import{Contact} from '../../../components/Contact/contact';
 import { Lr } from '../../../components/LR/Lr';
-import { useState } from 'react'
+// import { Costestimate } from '../CostEstimate/Costestimate'
+
+import { useState} from 'react'
+// import changeTheNumber from '../../../redux/reducer/upDown';
 // import { useHistory } from "react-router-dom";
 
 
 export const Spacedetails = () => {
+  const changeTheNumber = useSelector((state)=>state.changeTheNumber);
 
+  let navigate = useNavigate(); 
+
+  const handleClick = () =>{ 
+    let pathvar = `ce`; 
+    navigate(pathvar);
+  }
 
   // const history = useHistory();
 
     //  const home = () => {
     //     history.push("/");
     // }
+
+
+//     const handleClick=()=>
+// {
+// 	<BrowserRouter>
+// <Routes>
+
+// <Route path="/ce" element={<Costestimate/>}></Route> 
+
+// 	</Routes>     
+// 	</BrowserRouter>
+// }
+
   const [tgl, settgl] = useState(true)
   const [active, setActive] = useState(false);
 
@@ -684,7 +712,7 @@ class="fas fa-toggle-on" style={{ color: "grey", backgroundColor: "white", borde
             >
               <div _ngcontent-c3="" className="ui-g-12" id="netestimatesection">
                 <h4 _ngcontent-c3="" className="sm-top-bottom-no-margin">
-                  Net Estimate ₹ 0
+                  Net Estimate ₹ {changeTheNumber}
                 </h4>
                 <p _ngcontent-c3="" className="light-text sm-hide">
                   Estimate includes labour cost + material cost
@@ -694,7 +722,7 @@ class="fas fa-toggle-on" style={{ color: "grey", backgroundColor: "white", borde
                     _ngcontent-c3=""
                     className="ui-button-raised ui-button-rounded theme-button hide-button-overflow-text"
                     id="getestimatebutton"
-                    type="button"
+                    type="button"  onClick={handleClick} 
                   >
                     Get Detailed Estimate
                   </button>

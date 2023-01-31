@@ -1,9 +1,19 @@
 import React from 'react'
 import './Lr.css'
+import { useSelector, useDispatch } from "react-redux";
+import {incNumber1} from "../../redux/action";
+import {incNumber2} from "../../redux/action";
+import {incNumber3} from "../../redux/action";
+// import { ToggleSwitch } from '../../../toggle-switch/toggleSwitch';
+//  import {Number} from "./actions";
 import { useState } from 'react'
 export const Lr = () => {
 
-    console.log("huehuehuehuehyuhke");
+
+    // const changeTheNumber = useSelector((state)=>state.changeTheNumber);
+    const dispatch = useDispatch();
+
+
     const [checkbox, setCheckbox] = useState(false)
     const [activ, setActiv] = useState(true)
 
@@ -414,14 +424,20 @@ export const Lr = () => {
                                                                 _ngcontent-c10=""
                                                                 className="product-images img-responsive"
                                                                 src="http://costfinder.consdeployer.com/assets/productselection/livingroom/flooring/vitrified.png"
-                                                            />
+                                                           
+                                                           onClick={()=>dispatch(incNumber1(23450))}
+                                                           
+                                                           />
                                                             <p _ngcontent-c10="">Vitrified Tiles</p>
                                                         </div>
                                                         <div _ngcontent-c10="" className="ui-g-4 ng-star-inserted">
                                                             <img
                                                                 _ngcontent-c10=""
                                                                 className="product-images img-responsive"
-                                                                src="http://costfinder.consdeployer.com/assets/productselection/livingroom/flooring/wooden.png"
+                                                                src="http://costfinder.consdeployer.com/assets/productselection/livingroom/flooring/wooden.png" 
+                                                                
+                                                                 onClick={()=>dispatch(incNumber1(-45670))}
+                                                                
                                                             />
                                                             <p _ngcontent-c10="">Wooden Flooring</p>
                                                         </div>
@@ -430,6 +446,7 @@ export const Lr = () => {
                                                                 _ngcontent-c10=""
                                                                 className="product-images img-responsive"
                                                                 src="http://costfinder.consdeployer.com/assets/productselection/livingroom/flooring/italian.png"
+                                                             onClick={()=>dispatch(incNumber1(-46899))}
                                                             />
                                                             <p _ngcontent-c10="">Italian Marble</p>
                                                         </div>
@@ -569,7 +586,7 @@ export const Lr = () => {
                                                             <img
                                                                 _ngcontent-c11=""
                                                                 className="product-images img-responsive"
-                                                                src="http://costfinder.consdeployer.com/assets/productselection/livingroom/walltreatment/painting.png"
+                                                                src="http://costfinder.consdeployer.com/assets/productselection/livingroom/walltreatment/painting.png"  onClick={()=>dispatch(incNumber1(23450))}
                                                             />
                                                             <p _ngcontent-c11="">Painting</p>
                                                         </div>
@@ -577,7 +594,7 @@ export const Lr = () => {
                                                             <img
                                                                 _ngcontent-c11=""
                                                                 className="product-images img-responsive"
-                                                                src="http://costfinder.consdeployer.com/assets/productselection/livingroom/walltreatment/paintingandwallputty.png"
+                                                                src="http://costfinder.consdeployer.com/assets/productselection/livingroom/walltreatment/paintingandwallputty.png"  onClick={()=>dispatch(incNumber1(23450))}
                                                             />
                                                             <p _ngcontent-c11="">Painting &amp; Wall Putty</p>
                                                         </div>
@@ -585,7 +602,7 @@ export const Lr = () => {
                                                             <img
                                                                 _ngcontent-c11=""
                                                                 className="product-images img-responsive"
-                                                                src="http://costfinder.consdeployer.com/assets/productselection/livingroom/walltreatment/paintingwallputtywallpaper.png"
+                                                                src="http://costfinder.consdeployer.com/assets/productselection/livingroom/walltreatment/paintingwallputtywallpaper.png" onClick={()=>dispatch(incNumber1(23450))}
                                                             />
                                                             <p _ngcontent-c11="">
                                                                 Painting ,Wall Putty &amp; Wallpaper
@@ -701,6 +718,7 @@ export const Lr = () => {
                                                             _ngcontent-c12=""
                                                             className="product-images img-responsive"
                                                             src="http://costfinder.consdeployer.com/assets/productselection/livingroom/ceiling/painting.png"
+                                                            onClick={()=>dispatch(incNumber1(23450))}
                                                         />
                                                         <p _ngcontent-c12="">Painting</p>
                                                     </div>
@@ -709,6 +727,7 @@ export const Lr = () => {
                                                             _ngcontent-c12=""
                                                             className="product-images img-responsive"
                                                             src="http://costfinder.consdeployer.com/assets/productselection/livingroom/ceiling/falseceiling.png"
+                                                            onClick={()=>dispatch(incNumber1(23450))}
                                                         />
                                                         <p _ngcontent-c12="">Painting &amp; False Ceiling</p>
                                                     </div>
@@ -716,7 +735,7 @@ export const Lr = () => {
                                                         <img
                                                             _ngcontent-c12=""
                                                             className="product-images img-responsive"
-                                                            src="http://costfinder.consdeployer.com/assets/productselection/livingroom/ceiling/designerfalseceiling.png"
+                                                            src="http://costfinder.consdeployer.com/assets/productselection/livingroom/ceiling/designerfalseceiling.png" onClick={()=>dispatch(incNumber1(23450))}
                                                         />
                                                         <p _ngcontent-c12="">
                                                             Designer False Ceiling and Painting
@@ -835,7 +854,7 @@ export const Lr = () => {
                                                             <img
                                                                 _ngcontent-c13=""
                                                                 className="product-images img-responsive"
-                                                                src="http://costfinder.consdeployer.com/assets/productselection/livingroom/electricals/relocation.png"
+                                                                src="http://costfinder.consdeployer.com/assets/productselection/livingroom/electricals/relocation.png" onClick={()=>dispatch(incNumber1(23450))}
                                                             />
                                                             <p _ngcontent-c13="">Relocation of Existing Switches</p>
                                                         </div>
@@ -843,7 +862,7 @@ export const Lr = () => {
                                                             <img
                                                                 _ngcontent-c13=""
                                                                 className="product-images img-responsive"
-                                                                src="http://costfinder.consdeployer.com/assets/productselection/livingroom/electricals/newwiring.png"
+                                                                src="http://costfinder.consdeployer.com/assets/productselection/livingroom/electricals/newwiring.png" onClick={()=>dispatch(incNumber1(23450))}
                                                             />
                                                             <p _ngcontent-c13="">New Wiring and Switches</p>
                                                         </div>
@@ -851,9 +870,9 @@ export const Lr = () => {
                                                             <img
                                                                 _ngcontent-c13=""
                                                                 className="product-images img-responsive"
-                                                                src="http://costfinder.consdeployer.com/assets/productselection/livingroom/electricals/automation.png"
+                                                                src="http://costfinder.consdeployer.com/assets/productselection/livingroom/electricals/automation.png"onClick={()=>dispatch(incNumber1(23450))}
                                                             />
-                                                            <p _ngcontent-c13="">
+                                                            <p _ngcontent-c13=""> 
                                                                 New Wire and Switches with Automation
                                                             </p>
                                                         </div>
@@ -957,7 +976,7 @@ export const Lr = () => {
                                                             <img
                                                                 _ngcontent-c14=""
                                                                 className="product-images img-responsive"
-                                                                src="http://costfinder.consdeployer.com/assets/productselection/livingroom/windows/standard.png"
+                                                                src="http://costfinder.consdeployer.com/assets/productselection/livingroom/windows/standard.png" onClick={()=>dispatch(incNumber1(23450))}
                                                             />
                                                             <p _ngcontent-c14="">Standard Power Coated MS Section</p>
                                                         </div>
@@ -966,6 +985,7 @@ export const Lr = () => {
                                                                 _ngcontent-c14=""
                                                                 className="product-images img-responsive"
                                                                 src="http://costfinder.consdeployer.com/assets/productselection/livingroom/windows/anodised.png"
+                                                                onClick={()=>dispatch(incNumber1(23450))}
                                                             />
                                                             <p _ngcontent-c14="">
                                                                 Anodised Aluminum Section with Granite Framing
@@ -976,6 +996,7 @@ export const Lr = () => {
                                                                 _ngcontent-c14=""
                                                                 className="product-images img-responsive"
                                                                 src="http://costfinder.consdeployer.com/assets/productselection/livingroom/windows/soundproof.png"
+                                                                onClick={()=>dispatch(incNumber1(23450))}
                                                             />
                                                             <p _ngcontent-c14="">
                                                                 Sound Proof Window Section with Granite Framing

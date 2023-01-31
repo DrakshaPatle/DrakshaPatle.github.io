@@ -5,13 +5,20 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'typeface-roboto'
-
+import store from "./store";
+import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+
+store.subscribe(() => console.log(store.getState()));
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <Provider store ={store}>
     <App />
+    </Provider>
 
     </BrowserRouter>
   </React.StrictMode>
