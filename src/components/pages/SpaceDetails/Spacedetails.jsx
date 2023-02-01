@@ -455,7 +455,7 @@ class="fas fa-toggle-on" style={{ color: "grey", backgroundColor: "white", borde
                       _ngcontent-c3=""
                       className="theme-img-responsive"
                       width="100%"
-                      src="http://costfinder.consdeployer.com/assets/productselection/livingroombg.jpg"
+                      src="http://costfinder.consdeployer.com/assets/productselection/livingroombg.JPG"
                     />
 
 
@@ -478,7 +478,7 @@ class="fas fa-toggle-on" style={{ color: "grey", backgroundColor: "white", borde
                         <div className="ui-helper-hidden-accessible">
                           <input
                             type="checkbox"
-                            ng-reflect-ng-class="[object Object]"
+                            ng-reflect-ng-class="[object Object]"      
                             name="undefined"
                             defaultValue="undefined"
                           />
